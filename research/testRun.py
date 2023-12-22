@@ -1,4 +1,4 @@
-REQUIREMENT_FILE = "requirements.txt"
+REQUIREMENT_FILE = "../requirements.txt"
 
 
 def get_requirements_list():

@@ -5,7 +5,7 @@ PROJECT_DESCRIPTION = 'This is ML project for ML for regression problem'
 AUTHOR = 'Paramjit'
 AUTHOR_EMAIL = 'param-unik@gmail.com'
 PACKAGES = ["housing"]
-VERSION = "0.0.1"
+VERSION = __VERSION__ = '0.0.0'
 REQUIREMENT_FILE = "requirements.txt"
 
 
@@ -29,6 +29,6 @@ setup(
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     description=PROJECT_DESCRIPTION,
-    packages=PACKAGES,
+    packages=find_packages(),
     install_requires=get_requirements_list()
 )
