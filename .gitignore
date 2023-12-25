@@ -140,7 +140,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-artifacts/
+housing/artifacts/
 # pytype static type analyzer
 .pytype/
 

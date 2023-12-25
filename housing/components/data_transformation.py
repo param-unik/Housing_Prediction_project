@@ -77,8 +77,25 @@ class DataTransformation:
         except Exception as e:
             raise HousingException(e, sys)
 
-    def load_data(self, file_path: str, schema_file_path: str) -> pd.DataFrame:
+    @staticmethod
+    def load_data(file_path: str, schema_file_path: str) -> pd.DataFrame:
         try:
             dataset_schema = read_yaml_file(schema_file_path)
+            schema = dataset_schema[DATASET_SCHEMA_COLUMNS_KEY]
+            
+            dataframe =  pd.read_csv(file_path)
+            
+            erorr_message = ""
+            
+            for col in dataframe.columns:
+                if col in list(schema.keys()):
+                    dataframe[col].astype(schema[col])
+                else:
+                    erorr_message = f"{erorr_message} \nColumn : [{col}] is not in the schema.."
+            if len(erorr_message) > 0:
+                raise Exception(erorr_message)
+            
+            return dataframe
+        
         except Exception as e:
             raise HousingException(e, sys)
