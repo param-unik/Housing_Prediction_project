@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="C:\Users\Param\Python-Project\CampusX\GitHub\Housing_Prediction_project\housing\artifact\data_ingestion\2023-12-24-15-42-13\ingested_data\test\housing.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Param\Python-Project\CampusX\GitHub\Housing_Prediction_project\housing\artifact\data_ingestion\2023-12-24-20-16-03\ingested_data\test\housing.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Param\Python-Project\CampusX\GitHub\Housing_Prediction_project\housing\artifact\data_ingestion\2023-12-24-20-16-03\ingested_data\train\housing.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\Param\Python-Project\CampusX\GitHub\Housing_Prediction_project\housing\artifact\data_ingestion\2023-12-24-20-16-03\raw_data\housing.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
